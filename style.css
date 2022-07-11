@@ -1,0 +1,240 @@
+.project_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 40px; */
+    background-color: #26262608;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+        Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.login_container {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.insta_img {
+    width: 175px;
+    height: 51px;
+    margin-bottom: 40px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.input_login {
+    width: 260px;
+    height: 20px;
+    border: 1px solid #dbdbdb;
+    background-color: #26262608;
+    padding: 9px 0 7px 8px;
+    border-radius: 3px;
+}
+
+.enter {
+    width: 270px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    background-color: #b2defd;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.enter:hover {
+    background-color: #0194f6;
+}
+
+.division_or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    color: #8e8e8e;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 30px;
+}
+
+.line {
+    width: 107px;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.face_img {
+    width: 16px;
+    height: 16px;
+}
+
+.enter_facebook {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.facebook_button {
+    /* width: 270px; */
+    /* height: 30px; */
+    border-radius: 3px;
+    border: none;
+    background-color: transparent;
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    /* margin-bottom: 15px; */
+}
+
+.recover_password {
+    font-size: 12px;
+    color: #00376b;
+    cursor: pointer;
+}
+
+.not_account {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 40px 0;
+    cursor: pointer;
+}
+
+#p1 {
+    font-size: 14px;
+    color: #262626;
+}
+
+#p2 {
+    font-size: 14px;
+    color: #3c99f6;
+    font-weight: 600;
+}
+
+.get_app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.get_app p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.buttons_apple_and_google {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 60px;
+}
+
+.buttons_apple_and_google img {
+    width: 134.281px;
+    height: 40px;
+}
+
+.footer_container {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.utils_links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 40px;
+    color: #8e8e8e;
+    line-height: 7px;
+}
+
+.utils_links a {
+    text-decoration: none;
+    color: #8e8e8e;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.infos {
+    color: #8e8e8e;
+    font-size: 12px;
+    display: flex;
+    gap: 20px;
+    margin: 25px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.select_false {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.arrow {
+    width: 10px;
+    height: 7px;
+    margin-top: -4px;
+}
+
+@media (min-width: 450px) {
+    .principal {
+        width: 350px;
+        height: 396px;
+        background-color: white;
+        border: 1px solid #dbdbdb;
+        border-radius: 1px;
+    }
+
+    .insta_img {
+        margin-top: 25px;
+    }
+
+    .recover_password {
+        margin-bottom: 10px;
+    }
+
+    .not_account {
+        display: flex;
+        align-items: center;
+        width: 350px;
+        height: 61px;
+        background-color: white;
+        border: 1px solid #dbdbdb;
+        border-radius: 1px;
+        margin: 10px 0 20px 0;
+    }
+}
