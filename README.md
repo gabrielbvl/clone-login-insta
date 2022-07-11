@@ -10,6 +10,8 @@
 
 ### O projeto foi feito em mobile first, com responsividade e layout compativeis com o instagram desktop em quaquer tamanho de tela.
 
+### Os botões do projeto estão todos funcionais, com exceção do botão de login, mas todos os do footer e os de obter o app estão, o projeto está responsivo e foi feito em mobile first.
+
 ### Como a página é diferente quando se está em mobile e desktop, decidi seguir o modelo desktop.
 
 ### O ponto de modificação da página está no tamanho de 450px.
